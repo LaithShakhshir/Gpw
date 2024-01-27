@@ -1,0 +1,25 @@
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{"username":"bb" }
+  // const{username}=req.body.Name;
+  // const{secret}=req.body.hashedPassword;
+  // const{first_name}=req.body.Name;
+
+  // try{
+  //     const r = await axios.put(
+  //         "https://api.chatengine.io/users/",
+  //     {
+  //         username: username, secret: secret, first_name: first_name},
+  //         {headers:{"private-key":"09075456-86d4-4619-a1c7-cadd3a6c5900"}}
+  //     );   
+
+  //     return res.status(r.status).json(r.data)
+  // }catch(e){
+  //     if(e.response){       
+
+  //         return res.status(e.response.status).json(e.response.data);
+  //     }
+  //     console.log(e.response);
+  //     return res.status(500).json({message: "Server Error"});
+  // }

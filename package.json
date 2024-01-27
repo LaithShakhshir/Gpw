@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@fullcalendar/daygrid": "5.6",
+    "@fullcalendar/interaction": "5.6",
+    "@fullcalendar/vue": "5.6",
+    "mysql2": "^3.2.0",
+    "react-chat-engine-pretty": "^0.1.8"
+  }
+}
