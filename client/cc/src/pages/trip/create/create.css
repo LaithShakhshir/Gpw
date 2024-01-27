@@ -1,0 +1,17 @@
+.homeContainer{
+    display: flex;
+    width: 100%;
+  
+  }
+  
+  
+  .visetor-table-container {
+    max-width: 100%;
+    overflow-x: auto;
+    /* margin: 0 auto; */
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 20px;
+  
+    flex: 9.2;
+  } 

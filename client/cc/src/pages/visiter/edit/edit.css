@@ -1,0 +1,205 @@
+/* Style for the overall form container
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+   */
+  /* Style for the form itself */
+  /* form {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+   */
+  /* Style for the form headings */
+  /* h2 {
+    margin-top: 0;
+  } */
+  
+  /* Style for the form input labels */
+  /* label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  } */
+  
+  /* Style for the form input fields */
+  /* input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+  } */
+  
+  /* Style for the form submit button */
+  /* button {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  } */
+  
+  /* Style for the save button icon */
+  /* button svg {
+    margin-right: 5px;
+  } */
+  
+  /* Style for the form submit button when disabled */
+  /* button[disabled] {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  } */
+  /* Style for the form input labels */
+/* label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  margin-right: 50px;
+  
+
+} */
+
+/* Style for the form input fields */
+/* input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  margin-right: 10px;
+
+ 
+} */
+
+.homeContainer{
+  display: flex;
+  width: 100%;
+
+}
+
+
+.visetor-table-container {
+  max-width: 100%;
+  overflow-x: auto;
+  /* margin: 0 auto; */
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 20px;
+
+  flex: 9;
+} 
+.homeContainer{
+  display: flex;
+  width: 100%;
+  
+
+}
+
+
+.vcontainer {
+  flex: 9;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 1px 16px -8px rgba(0,0,0,0.68); 
+  box-shadow: 0px 1px 16px -8px rgba(0,0,0,0.68);
+
+  max-width: 100%;
+  height: 670px;
+  overflow-x: auto;
+  /* margin: 0 auto; */
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: 20px;
+
+} 
+.input-field {
+  max-width: 380px;
+  width: 100%;
+  background-color: #f0f0f0;
+  margin: 10px 0;
+  height: 55px;
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+  position: relative;
+  display: flex;
+}
+
+.input-field i {
+  text-align: center;
+  line-height: 55px;
+  width: 55px;
+  color: #acacac;
+  transition: 0.5s;
+  font-size: 1.1rem;
+  margin-top: 4px;
+}
+
+.input-field input {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #000000;
+}
+
+.input-field input::placeholder {
+  color: #aaa;
+  font-weight: 500;
+}
+
+
+.btn {
+  width: 250px;
+  background-color: #FFC107;
+  border: none;
+  outline: none;
+  height: 49px;
+  border-radius: 49px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-bottom: 10px;
+}
+
+.btn:hover {
+  background-color: #FFC107;
+}
+
+.filde{
+  display: flex;
+  
+}
+
+.fildelable{
+  margin-top: 26px;
+  margin-right: 0px;
+  margin-left: 60px;
+  cursor: pointer;
+  font-weight: 500;
+  width: 200px;
+
+}

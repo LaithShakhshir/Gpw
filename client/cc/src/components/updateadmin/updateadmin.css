@@ -1,0 +1,106 @@
+.update {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.update .wrapper {
+  margin: auto;
+  width: 80%;
+  height: 70%;
+  background-image: linear-gradient(+45deg, #FFC107 20%, #FFC107 100%);
+  padding: 50px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+  position: relative;
+  align-items: center;
+}
+
+.update .wrapper h1 {
+  color: white;
+}
+
+.update .wrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.update .wrapper .files {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.update .wrapper h3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color:white;
+}
+
+.update .wrapper label .imgContainer {
+  position: relative;
+}
+
+.update .wrapper label .imgContainer img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.update .wrapper label .imgContainer .icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 30px;
+  color: rgb(11, 11, 11);
+  cursor: pointer;
+}
+
+.update .wrapper input[type="file"] {
+  display: none;
+}
+
+.update .wrapper input[type="text"],
+.update .wrapper input[type="password"] 
+.update .wrapper input[type="file"]{
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #d9d9d9;
+  color: rgb(16, 15, 15);
+  background-color: transparent;
+
+}
+
+.update .wrapper button {
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  background-color: #FFC107;
+}
+
+.update .wrapper .close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  border: none;
+  background-color: #FFC107;
+  padding: 5px;
+  cursor: pointer;
+  color: white;
+}

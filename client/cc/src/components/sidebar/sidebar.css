@@ -1,0 +1,81 @@
+.sidebar{
+    flex: 2.5;
+    height: calc(100vh - 50px);
+    position: sticky;
+    top: 50px;
+
+    /* overflow-y: scroll; */
+} 
+.sidebarListItem:hover{
+    /* background-color: rgb(245, 243, 243); */
+    background-color: #FFC107;
+}
+
+
+
+
+
+
+.sidebarWrapper{
+    padding: 20px;
+    
+
+}
+
+.sidebarList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+
+}
+
+.sidebarListItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 19.5px;
+    padding: 10px;
+
+    
+}
+.sidebarListItemLink{
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.sidebarIcon{
+    margin-right: 15px;
+    
+}
+
+.sidebarButton{
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+
+.sidebarListItem.active {
+    background-color: #ecf798;
+  }
+
+/* ::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(179, 179, 179);
+}  */
+
+
+
+.sidebarListItem.active {
+    background-color: #FFC107;
+  }
+  

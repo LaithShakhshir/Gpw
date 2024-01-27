@@ -1,0 +1,143 @@
+
+
+
+.homeContainer{
+    display: flex;
+    width: 100%;
+
+}
+ 
+
+.visetor-table-container {
+    max-width: 100%;
+    overflow-x: auto;
+    /* margin: 0 auto; */
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 20px;
+ 
+    flex: 9.2;
+  } 
+ 
+  .table{
+    overflow: auto;
+    max-height: 600px; /* Set a maximum height */
+  }
+  
+  
+  
+  .visetor-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+   
+  }
+  
+  .visetor-table th,
+  .visetor-table td {
+    text-align: center;
+    padding: 12px 15px;
+    
+  }
+  
+  .visetor-table th {
+    background-color: #0b295d;
+    color: white;
+  }
+  
+  .visetor-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .visetor-table tr:hover {
+    background-color: #ddd;
+  }
+
+  .titel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .visetor-action-link {
+    /* display: inline-block; */
+    display: flex;
+
+    width: 38.5px;
+    height: 23.5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    /* font-size: 14px; */
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background-color: #0b295d;
+  }
+  
+  /* .visetor-action-link:hover {
+    background-color: #3e8e41;
+  }
+  
+  .visetor-action-link.create {
+    background-color: #2196f3;
+  }
+  
+  .visetor-action-link.create:hover {
+    background-color: #0d8bf2;
+  }
+  
+  .visetor-action-link.delete {
+    background-color: #f44336;
+  }
+  
+  .visetor-action-link.delete:hover {
+    background-color: #e60000;
+  } */
+
+  .add{  
+    display: inline-block;
+
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background-color: #0b295d;}
+  
+  @media screen and (max-width: 768px) {
+    .visetor-table th,
+    .visetor-table td {
+      padding: 8px;
+    }
+  
+    .visetor-table th {
+      font-size: 14px;
+    }
+  
+    .visetor-action-link {
+      font-size: 14px;
+    }
+  }
+  
+.buttonTop{
+  display: flex;
+}
+.butonsave{
+  display: inline-block;
+
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background-color: #0b295d;
+
+}

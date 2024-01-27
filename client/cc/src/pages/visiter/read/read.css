@@ -1,0 +1,165 @@
+.read-containerv {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; */
+    flex: 9;
+    display:block;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 1px 16px -8px rgba(0,0,0,0.68); 
+    box-shadow: 0px 1px 16px -8px rgba(0,0,0,0.68);
+    max-width: 100%;
+    height: 670px;
+    overflow-x: auto;
+    /* margin: 0 auto; */
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 90vh;
+  }
+  
+  .read-boxv {
+    /* background-color: #fff; */
+    /* border-radius: 5px; */
+    padding: 30px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    /* width: 600; */
+  }
+  
+  .detailrow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+ /* .information{
+  margin-left: 200px;
+ } */
+  
+  .detail-row span:first-child {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .back-button,
+  .edit-button {
+    display: flex;
+    align-items: center;
+    background-color: #FFC107;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .back-button:hover,
+  .edit-button:hover {
+    background-color: #FFC107;
+  }
+  
+  .back-button svg,
+  .edit-button svg {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+ 
+  
+  .read-box {
+    background-color: #f1f1f1;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .detail-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .detail-row span:first-child {
+    font-weight: bold;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .backbutton,
+  .editbutton {
+    width: 250px;
+    background-color: #FFC107;
+    border: none;
+    outline: none;
+    height: 35px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+  
+  
+  .backbutton:hover,
+  .editbutton:hover {
+    background-color: #FFC107;
+  }
+  
+  .button-icon {
+    margin-right: 5px;
+  }
+  .read-box {
+    background-color: #FFC107;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 600px;
+  }
+  .homeContainer{
+    display: flex;
+    width: 100%;
+
+}
+
+
+.visetor-table-container {
+    max-width: 100%;
+    overflow-x: auto;
+    /* margin: 0 auto; */
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 20px;
+ 
+    flex: 9.2;
+  }
+  .table-photo{
+    margin-top: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;}
+
+    .titlev{
+
+      align-items: center;
+    }

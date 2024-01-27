@@ -1,0 +1,108 @@
+/* Style for the overall form container
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+   */
+  /* Style for the form itself */
+  /* form {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+   */
+  /* Style for the form headings */
+  /* h2 {
+    margin-top: 0;
+  } */
+  
+  /* Style for the form input labels */
+  /* label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  } */
+  
+  /* Style for the form input fields */
+  /* input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+  } */
+  
+  /* Style for the form submit button */
+  /* button {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  } */
+  
+  /* Style for the save button icon */
+  /* button svg {
+    margin-right: 5px;
+  } */
+  
+  /* Style for the form submit button when disabled */
+  /* button[disabled] {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  } */
+  /* Style for the form input labels */
+/* label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  margin-right: 50px;
+  
+
+} */
+
+/* Style for the form input fields */
+/* input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  margin-right: 10px;
+
+ 
+} */
+
+.homeContainer{
+  display: flex;
+  width: 100%;
+
+}
+
+
+.visetor-table-container {
+  max-width: 100%;
+  overflow-x: auto;
+  /* margin: 0 auto; */
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 20px;
+
+  flex: 9.2;
+} 
