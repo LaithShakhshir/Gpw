@@ -72,10 +72,10 @@ const Addvisiter = () => {
                     <th>Name</th>
                     <th>Money</th>
                     <th>Email</th>
-                    <th>Start</th>
+{/*                     <th>Start</th>
                     <th>End</th>
                     <th>Cost</th>
-                    <th>Date</th>
+                    <th>Date</th> */}
                     <th>Actions</th>
                   </tr>
                 </thead>
@@ -85,10 +85,10 @@ const Addvisiter = () => {
                       <td>{visitor.name}</td>
                       <td>{visitor.money}</td>
                       <td>{visitor.email}</td>
-                      <td>{visitor.startPosition}</td>
+{/*                       <td>{visitor.startPosition}</td>
                       <td>{visitor.endPosition}</td>
                       <td>{visitor.rideCost}</td>
-                      <td>{visitor.rideDate}</td>
+                      <td>{visitor.rideDate}</td> */}
                       <td>
                         <button onClick={() => acceptVisitor(visitor.id, visitor.email)} className="action-button accept-button">Accept</button>
                         <button onClick={() => deleteVisitor(visitor.id)} className="action-button delete-button">Delete</button>
