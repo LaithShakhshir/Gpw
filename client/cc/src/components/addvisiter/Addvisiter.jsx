@@ -32,7 +32,7 @@ const Addvisiter = () => {
     console.log(id);
     try {
       await axios.put(`http://localhost:8888/api/visiter/addvisitertosystem/${id}`);
-      sendEmailToVisitor(email);
+      //sendEmailToVisitor(email);
       fetchVisitors();
     } catch (error) {
       console.error('Error accepting visitor:', error);
