@@ -148,58 +148,7 @@ db.query(getUserInfoQuery, (error, results) => {
   }
 
 
-  //export const addvisitertosystem = (req, res) => {
-    
-    // const visitorID = req.params.ID;
-
-    // // Query to get the user's information and taxi price
-    // const getUserAndTaxiInfoQuery = `
-    //   SELECT u.userID, t.price
-    //   FROM register r
-    //   JOIN userapp u ON r.userID = u.userID
-    //   JOIN taxi t ON r.id = t.id
-    //   WHERE r.ID = ? AND r.acceptUser = 0;
-    // `;
   
-    // // Execute the query
-    // db.query(getUserAndTaxiInfoQuery, [visitorID], (error, results) => {
-    //   if (error) {
-    //     console.error("Error executing query:", error);
-    //     res.status(500).json({ error: "Error retrieving user and taxi information" });
-    //     return;
-    //   }
-  
-    //   if (results.length === 0) {
-    //     res.status(400).json({ error: "User not found or already accepted" });
-    //     return;
-    //   }
-  
-    //   const { userID, price } = results[0];
-  
-    //   // Update acceptUser to 1 in the register table
-    //   const updateRegisterQuery = "UPDATE register SET acceptUser = 1 WHERE ID = ?";
-  
-    //   db.query(updateRegisterQuery, [visitorID], (updateError, updateResults) => {
-    //     if (updateError) {
-    //       console.error("Error updating acceptUser:", updateError);
-    //       res.status(500).json({ error: "Error updating acceptUser" });
-    //       return;
-    //     }
-  
-    //     // Deduct money from the user's account based on taxi price
-    //     const updateMoneyQuery = "UPDATE userapp SET money = money - ? WHERE userID = ?";
-  
-    //     db.query(updateMoneyQuery, [price, userID], (moneyError, moneyResults) => {
-    //       if (moneyError) {
-    //         console.error("Error updating user's money:", moneyError);
-    //         res.status(500).json({ error: "Error updating user's money" });
-    //         return;
-    //       }
-  
-    //       res.sendStatus(200);
-    //     });
-    //   });
-    // });
    
 
 
@@ -213,8 +162,8 @@ console.log("s")
     const getUserAndTaxiInfoQuery = `
         SELECT u.id, r.rideCost
         FROM taxiride r
-        JOIN passenger u ON r.userId = u.id
-        WHERE r.taxiRideId = ? AND r.accept = 0;
+        JOIN passenger u ON u.id = r.userId
+        WHERE r.accept = 0;
     `;
     // Execute the query
     db.query(getUserAndTaxiInfoQuery, [visitorID], (error, results) => {
