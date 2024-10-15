@@ -6,7 +6,7 @@ WENAK is an innovative transportation system designed to enhance the commuting e
 
 WENAK introduces an advanced web and mobile application tailored for both students and taxi services. The platform enables taxi offices to efficiently manage their fleets, drivers, and vehicles, simplifying the registration process for these offices and allowing them to effectively showcase their services.
 
-![WENAK App Screenshot]("Screenshot 2024-10-15 235150.png")
+![WENAK App Screenshot](Screenshot 2024-10-15 235150.png)
 
 ## Key Features
 
